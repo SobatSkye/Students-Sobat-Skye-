@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kelas Premium Forex & Kripto</title>
+  <style>
+    body {font-family:Arial,sans-serif; background:#f5f5f5; margin:0;}
+    header {background:#111; color:#fff; text-align:center; padding:50px 20px;}
+    header h1 {font-size:32px; margin-bottom:10px;}
+    header p {font-size:18px; opacity:0.8;}
+    section {padding:40px 20px; text-align:center;}
+    .card {background:#fff; padding:20px; max-width:800px; margin:auto;
+           border-radius:10px; box-shadow:0 4px 8px rgba(0,0,0,0.1);}
+    .cta-btn {display:inline-block; background:#ffc107; padding:15px 25px; 
+              margin-top:20px; border-radius:8px; color:#000; text-decoration:none; font-weight:bold;}
+    img {max-width:100%; border-radius:10px;}
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="images/logo.png" alt="Logo Komunitas" width="120"><br><br>
+  <h1>Kelas Premium Forex & Kripto</h1>
+  <p>Signal Harian + Edukasi Lengkap + Komunitas Discord VIP</p>
+</header>
+
+<section>
+  <div class="card">
+    <img src="images/banner.jpg" alt="Banner Kelas"><br><br>
+    <h2>Rp 13.000.000 / 6 Bulan</h2>
+    <p>Dapatkan akses penuh ke signal harian, mentoring, dan komunitas eksklusif.</p>
+    <a href="testimoni.html" class="cta-btn">Lihat Testimoni & Komunitas</a>
+  </div>
+</section>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Testimoni & Komunitas</title>
+  <style>
+    body {font-family:Arial,sans-serif; background:#f5f5f5; margin:0;}
+    header {background:#111; color:#fff; text-align:center; padding:40px 20px;}
+    header h1 {font-size:28px;}
+    section {padding:40px 20px; max-width:900px; margin:auto;}
+    .card {background:#fff; padding:20px; margin-bottom:30px; border-radius:10px; 
+           box-shadow:0 4px 8px rgba(0,0,0,0.1);}
+    img {width:100%; border-radius:8px;}
+    .cta-btn {display:inline-block; background:#ffc107; padding:15px 25px; 
+              margin-top:20px; border-radius:8px; color:#000; text-decoration:none; font-weight:bold;}
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Testimoni Member & Komunitas VIP</h1>
+</header>
+
+<section>
+  <div class="card">
+    <h2>Testimoni Member</h2>
+    <img src="images/testimoni1.jpg" alt="Testimoni Member 1">
+    <img src="images/testimoni2.jpg" alt="Testimoni Member 2">
+    <img src="images/testimoni3.jpg" alt="Testimoni Member 3">
+  </div>
+
+  <div class="card">
+    <h2>Contoh Signal Harian</h2>
+    <img src="images/chart1.jpg" alt="Analisis Chart 1">
+    <img src="images/chart2.jpg" alt="Analisis Chart 2">
+  </div>
+
+  <div class="card">
+    <h2>Komunitas Discord VIP</h2>
+    <img src="images/komunitas.jpg" alt="Discord Komunitas">
+    <p>Diskusi real-time, update market, dan mentoring langsung setelah pembayaran diverifikasi.</p>
+  </div>
+
+  <div class="content-center" style="text-align:center;">
+    <a href="pembayaran.html" class="cta-btn">Lanjutkan ke Pembayaran</a>
+  </div>
+</section>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pembayaran & Konfirmasi</title>
+  <style>
+    body {font-family:Arial,sans-serif; background:#f5f5f5; margin:0;}
+    header {background:#111; color:#fff; text-align:center; padding:40px 20px;}
+    header h1 {font-size:28px;}
+    section {padding:40px 20px; max-width:800px; margin:auto;}
+    .card {background:#fff; padding:20px; border-radius:10px; 
+           box-shadow:0 4px 8px rgba(0,0,0,0.1); text-align:center;}
+    .cta-btn {display:inline-block; background:#ffc107; padding:15px 25px; 
+              margin-top:20px; border-radius:8px; color:#000; text-decoration:none; font-weight:bold;}
+    form {background:#fff; padding:20px; border-radius:10px; margin-top:30px; box-shadow:0 4px 8px rgba(0,0,0,0.1);}
+    label {display:block; margin-top:10px; font-weight:bold;}
+    input {width:100%; padding:10px; margin-top:5px; border:1px solid #ccc; border-radius:6px;}
+    button {width:100%; padding:15px; background:#ffc107; border:none; font-weight:bold; margin-top:15px; cursor:pointer;}
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Detail Pembayaran & Konfirmasi</h1>
+</header>
+
+<section>
+  <div class="card">
+    <p>Transfer ke:</p>
+    <p><b>BCA - 8810671387</b></p>
+    <p>a/n <b>SATRIYO</b></p>
+    <p>Nominal: <b>Rp 13.000.000</b></p>
+  </div>
+
+  <form id="form">
+    <label for="nama">Nama Lengkap</label>
+    <input type="text" id="nama" required>
+
+    <label for="tanggal">Tanggal Pendaftaran</label>
+    <input type="date" id="tanggal" required>
+
+    <label for="discord">Username Discord</label>
+    <input type="text" id="discord" required>
+
+    <button type="submit">Konfirmasi via WhatsApp</button>
+  </form>
+</section>
+
+<script>
+  document.getElementById('form').addEventListener('submit', function(e){
+    e.preventDefault();
+    const nama = document.getElementById('nama').value;
+    const tanggal = document.getElementById('tanggal').value;
+    const discord = document.getElementById('discord').value;
+
+    // Redirect ke WhatsApp CS dengan data otomatis
+    const wa = "6281385637969";
+    const message = `Halo CS, saya sudah transfer.\n\nNama Lengkap: ${nama}\nTanggal: ${tanggal}\nUsername Discord: ${discord}`;
+    window.open(`https://wa.me/${wa}?text=${encodeURIComponent(message)}`);
+  });
+</script>
+
+</body>
+</html>
